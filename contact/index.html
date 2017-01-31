@@ -5,23 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Contact</title>
-  <link type="text/css" rel="stylesheet" href="../css/style/css"/>
+  <link type="text/css" rel="stylesheet" href="../css/style.css"/>
 
 </head>
 <body>
-  <div>
-    <a href="/">Home</a>
-    <a href="/projects/index.html">Projects</a>
-    <a href="/blog/index.html">Blog</a>
-    <a href="/media/index.html">Media</a>
-  </div>
+  <ul id="nav">
+    <li><a href="/">Home</a></li>
+    <li><a href="/projects/index.html">Projects</a></li>
+    <li><a href="/media/index.html">Media</a></li>
+    <li><a href="/blog.index.html">Blog</a></li>
+  </ul>
 
 <div class="container">
 <form action="https://formspree.io/genaserey@gmail.com" method="POST">
 
-  <input type="text" name="firstname" value="First Name" size="100" autofocus>
-  <input type="text" name="lastname" value="Last Name" size="100">
-  <input type="email" name="userEmail" placeholder="your.email@example.com">
+  <input type="text" name="firstname" placeholder="First Name" size="100" autofocus>
+  <input type="text" name="lastname" placeholder="Last Name" size="100">
+  <input type="email" name="userEmail" placeholder="your.email@example.com" required>
 
   <label>What's this message about?<br>
     <input type="radio" name="subject" value="professional" checked><span>I'd like to hire you!</span>
