@@ -106,15 +106,15 @@ li {
  color: rgb(220,220,220)
 }
 
-.highlight{
- color: blue;
- font-weight:bold;
+.highlight {
+	background-color: #32CD32;
+  font-weight:bold;
+	color: white;
 }
 
 #nav li {
   list-style-type: none;
 }
-
 
 #nav {
   position: relative;
@@ -134,4 +134,8 @@ li {
 
 footer {
   font-size:.25em;
+}
+
+.hidden {
+	display: none;
 }
